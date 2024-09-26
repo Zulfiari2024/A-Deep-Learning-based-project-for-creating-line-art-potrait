@@ -12,9 +12,3 @@
   <li>Generator Loss Kehilangan Persepsi/Kehilangan Fitur berdasarkan VGG16. ( https://arxiv.org/pdf/1603.08155.pdf ).</li>
 </ul>
 
-<h2>Dataset</h2>
-<p>[APDrawing dataset](https://cg.cs.tsinghua.edu.cn/people/~Yongjin/APDrawingDB.zip)
-
-Kumpulan data pasangan pewarnaan sketsa anime
-
-Kumpulan data APDrawing sebagian besar terdiri dari potret jarak dekat sehingga model akan kesulitan mengenali pakaian, tangan, dll. Untuk tujuan ini, gambar terpilih dari pasangan pewarnaan sketsa anime digunakan.</p>
