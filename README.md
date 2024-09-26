@@ -16,7 +16,7 @@
 
 ![Image Alt](https://github.com/Zulfiari2024/Zulfiari2024/blob/d61332caaba32fa020d74d6e55923add6b426a9e/foto%20model.jpeg)
 
-![Image Alt]([Image_url](https://github.com/Zulfiari2024/Zulfiari2024/blob/d61332caaba32fa020d74d6e55923add6b426a9e/Foto%20movie.jpeg))
+![Image Alt](https://github.com/Zulfiari2024/Zulfiari2024/blob/d61332caaba32fa020d74d6e55923add6b426a9e/Foto%20movie.jpeg)
 
 
 
