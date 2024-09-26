@@ -7,7 +7,14 @@
 
 <h2>Technical Details</h2>
 <ul>
-  <li>Self-Attention ( https://arxiv.org/abs/1805.08318 ). Generator adalah UNET yang telah dilatih sebelumnya dengan normalisasi spektral dan self-attention. Sesuatu yang saya dapatkan dari DeOldify milik Jason Antic ( https://github.com/jantic/DeOldify ), ini membuat perbedaan besar, tiba-tiba saya mulai mendapatkan detail yang tepat di sekitar fitur wajah.</li>
-  <li>Progressive Resizing ( https://arxiv.org/abs/1710.10196),(https://arxiv.org/pdf/1707.02921.pdf ). Pengubahan ukuran progresif menggunakan ide untuk meningkatkan ukuran gambar secara bertahap. Dalam proyek ini, ukuran gambar ditingkatkan secara bertahap dan kecepatan pembelajaran disesuaikan. Terima kasih kepada fast.ai yang telah memperkenalkan saya pada pengubahan ukuran progresif, ini membantu model untuk menggeneralisasi lebih baik karena melihat lebih banyak gambar yang berbeda.</li>
+  <li>Self-Attention ( https://arxiv.org/abs/1805.08318 ). Generator adalah UNET yang telah dilatih sebelumnya dengan normalisasi spektral dan self-attention. Sesuatu yang pemilik projek dapatkan dari DeOldify milik Jason Antic ( https://github.com/jantic/DeOldify ), ini membuat perbedaan besar, tiba-tiba pemilik projek mendapatkan detail yang tepat di sekitar fitur wajah.</li>
+  <li>Progressive Resizing ( https://arxiv.org/abs/1710.10196),(https://arxiv.org/pdf/1707.02921.pdf ). Pengubahan ukuran progresif menggunakan ide untuk meningkatkan ukuran gambar secara bertahap. Dalam proyek ini, ukuran gambar ditingkatkan secara bertahap dan kecepatan pembelajaran disesuaikan. Terima kasih kepada fast.ai yang telah memperkenalkan pemilik projek pada pengubahan ukuran progresif, ini membantu model untuk menggeneralisasi lebih baik karena melihat lebih banyak gambar yang berbeda.</li>
   <li>Generator Loss Kehilangan Persepsi/Kehilangan Fitur berdasarkan VGG16. ( https://arxiv.org/pdf/1603.08155.pdf ).</li>
 </ul>
+
+<h2>Dataset</h2>
+<p>[APDrawing dataset](https://cg.cs.tsinghua.edu.cn/people/~Yongjin/APDrawingDB.zip)
+
+Kumpulan data pasangan pewarnaan sketsa anime
+
+Kumpulan data APDrawing sebagian besar terdiri dari potret jarak dekat sehingga model akan kesulitan mengenali pakaian, tangan, dll. Untuk tujuan ini, gambar terpilih dari pasangan pewarnaan sketsa anime digunakan.</p>
