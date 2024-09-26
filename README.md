@@ -12,3 +12,11 @@
   <li>Generator Loss Kehilangan Persepsi/Kehilangan Fitur berdasarkan VGG16. ( https://arxiv.org/pdf/1603.08155.pdf ).</li>
 </ul>
 
+<h4>Beberapa contoh hasil Line art</h4>
+
+![Image Alt](https://github.com/Zulfiari2024/Zulfiari2024/blob/d61332caaba32fa020d74d6e55923add6b426a9e/foto%20model.jpeg)
+
+![Image Alt]([Image_url](https://github.com/Zulfiari2024/Zulfiari2024/blob/d61332caaba32fa020d74d6e55923add6b426a9e/Foto%20movie.jpeg))
+
+
+
